@@ -1,6 +1,0 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
-
-/thinger.WPF.MultiTHMonitorProject/thinger.WPF.MultiTHMonitorProject.sln
-/thinger.WPF.MultiTHMonitorProject/thinger.WPF.MultiTHMonitorModels/thinger.WPF.MultiTHMonitorModels.csproj
