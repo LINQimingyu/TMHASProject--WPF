@@ -3,14 +3,59 @@
   "WorkspaceRootPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70D3D0F3-BF19-4612-A567-380B151D53C2}|thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitormodels\\sql\\syslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D3D0F3-BF19-4612-A567-380B151D53C2}|thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj|solutionrelative:thinger.wpf.multithmonitormodels\\sql\\syslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 254,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml*",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T15:22:04.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1991fc15-2dc8-4eaa-95d3-36ac2d12288c",
+        "Display": 1,
+        "X": 218,
+        "Y": 75,
+        "Width": 1255,
+        "Height": 883,
+        "WindowState": 0
+      },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -19,14 +64,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SysLog.cs",
-              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
-              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
-              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
-              "RelativeToolTip": "thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T10:16:51.696Z",
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml*",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-22T15:47:49.238Z",
               "EditorCaption": ""
             }
           ]

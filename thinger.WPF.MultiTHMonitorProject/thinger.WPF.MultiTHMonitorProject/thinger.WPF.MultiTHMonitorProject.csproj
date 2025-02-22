@@ -3,16 +3,41 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
-    <Folder Include="Views\" />
+    <None Remove="Images\header.jpg" />
+    <None Remove="Images\header_bg.png" />
+    <None Remove="Images\login_bg.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\logo_icon.png" />
+    <None Remove="Images\t_bg.png" />
+    <None Remove="Images\t_bg_1.png" />
+    <None Remove="Images\t_bg_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="Command\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\header.jpg" />
+    <Resource Include="Images\header_bg.png" />
+    <Resource Include="Images\login_bg.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\logo_icon.png" />
+    <Resource Include="Images\t_bg.png" />
+    <Resource Include="Images\t_bg_1.png" />
+    <Resource Include="Images\t_bg_2.png" />
   </ItemGroup>
 
 </Project>
