@@ -1,0 +1,12 @@
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\bin\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.deps.json
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\bin\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.dll
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\bin\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.pdb
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.AssemblyInfoInputs.cache
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.AssemblyInfo.cs
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.csproj.CoreCompileInputs.cache
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.sourcelink.json
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.dll
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\refint\thinger.WPF.MultiTHMonitorModels.dll
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\thinger.WPF.MultiTHMonitorModels.pdb
+D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorModels\obj\Debug\net8.0-windows\ref\thinger.WPF.MultiTHMonitorModels.dll

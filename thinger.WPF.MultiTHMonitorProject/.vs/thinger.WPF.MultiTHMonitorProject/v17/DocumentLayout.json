@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70D3D0F3-BF19-4612-A567-380B151D53C2}|thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitormodels\\sql\\syslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D3D0F3-BF19-4612-A567-380B151D53C2}|thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj|solutionrelative:thinger.wpf.multithmonitormodels\\sql\\syslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SysLog.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorModels\\SQL\\SysLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T10:16:51.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
