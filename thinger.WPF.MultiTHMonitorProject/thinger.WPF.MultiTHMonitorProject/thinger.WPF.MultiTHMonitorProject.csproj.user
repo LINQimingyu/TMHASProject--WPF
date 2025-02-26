@@ -7,18 +7,54 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\AlarmView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\MonitorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ParamSetView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RecipeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UserManageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\AlarmView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MonitorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ParamSetView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RecipeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UserManageView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

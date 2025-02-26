@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\monitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\monitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\command\\iconfigureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\command\\iconfigureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\alarmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\alarmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\usermanageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\usermanageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\usermanageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\usermanageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\viewmodels\\paramsetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\viewmodels\\paramsetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 254,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,47 +83,193 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\App.xaml.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\App.xaml.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\App.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:46:46.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
               "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
               "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-22T15:22:04.883Z",
+              "WhenOpened": "2025-02-26T15:46:21.034Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "1991fc15-2dc8-4eaa-95d3-36ac2d12288c",
-        "Display": 1,
-        "X": 218,
-        "Y": 75,
-        "Width": 1255,
-        "Height": 883,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:39:12.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IConfigureService.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Command\\IConfigureService.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Command\\IConfigureService.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Command\\IConfigureService.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Command\\IConfigureService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:15:05.843Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
-              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
-              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\LoginView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:21:16.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonitorViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\MonitorViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\MonitorViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\MonitorViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\MonitorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:20:29.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:13:05.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlarmViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\AlarmViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\AlarmViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\AlarmViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\AlarmViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:20:08.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:12:30.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-22T15:47:49.238Z",
+              "WhenOpened": "2025-02-26T14:54:00.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserManageView.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\UserManageView.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\UserManageView.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\UserManageView.xaml",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\UserManageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-26T15:01:44.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipeViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\RecipeViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\RecipeViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\RecipeViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\RecipeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:20:51.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\HistoryViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\HistoryViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\HistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:20:17.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserManageViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\UserManageViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\UserManageViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\UserManageViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\UserManageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:01:24.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParamSetViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\ParamSetViewModel.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\ParamSetViewModel.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\ViewModels\\ParamSetViewModel.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\ViewModels\\ParamSetViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T14:20:42.059Z",
               "EditorCaption": ""
             }
           ]

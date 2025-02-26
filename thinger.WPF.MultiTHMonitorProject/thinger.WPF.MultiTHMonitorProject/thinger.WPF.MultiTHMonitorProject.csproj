@@ -20,13 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Command\" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
-    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+    <ProjectReference Include="..\thinger.WPF.MultiTHMonitorBLL\thinger.WPF.MultiTHMonitorBLL.csproj" />
+    <ProjectReference Include="..\thinger.WPF.MultiTHMonitorModels\thinger.WPF.MultiTHMonitorModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>
