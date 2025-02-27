@@ -185,7 +185,7 @@
                         Text="欢迎"
                         Foreground="#fff" />
                     <Run
-                        Text="Admin"
+                        Text="{Binding UserName}"
                         Foreground="#00F7EC"/>
                     <Run
                         Text="登录系统"

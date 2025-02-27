@@ -1,4 +1,5 @@
 ﻿using Prism.Commands;
+using Prism.Mvvm;
 using Prism.Regions;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using thinger.WPF.MultiTHMonitorProject.Command;
 
 namespace thinger.WPF.MultiTHMonitorProject.ViewModels
 {
-    public class MainViewModel : IConfigureService
+    public class MainViewModel : BindableBase , IConfigureService
     {
         private readonly IRegionManager _regionManager;
 
@@ -20,6 +21,13 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         }
 
 
+        private string userName;
+
+        public string UserName
+        {
+            get { return userName; }
+            set { userName = value; RaisePropertyChanged(); }
+        }
 
         #region 命令属性
         public DelegateCommand<string> OpenViewCommand { get; private set; }
@@ -35,6 +43,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
 
         public void Configure()
         {
+            UserName = CommonMethods.CurrentAdmin.LoginName;
             _regionManager.Regions["ContentRegion"].RequestNavigate("MonitorView");
         }
     }

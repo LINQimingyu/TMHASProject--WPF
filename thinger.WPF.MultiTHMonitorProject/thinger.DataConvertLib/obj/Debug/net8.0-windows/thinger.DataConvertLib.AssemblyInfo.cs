@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("thinger.DataConvertLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9743cfee84f4b67a302653ee69dd92e9549f46c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8bf8fa516abbf0de1a5fd6d445641719f9df08")]
 [assembly: System.Reflection.AssemblyProductAttribute("thinger.DataConvertLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("thinger.DataConvertLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

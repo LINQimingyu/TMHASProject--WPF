@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using thinger.WPF.MultiTHMonitorBLL;
 using thinger.WPF.MultiTHMonitorModels.SQL;
+using thinger.WPF.MultiTHMonitorProject.Command;
 
 namespace thinger.WPF.MultiTHMonitorProject.ViewModels
 {
@@ -95,6 +96,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 {
                     LoginTip = "";
                     //MessageBox.Show("登录成功!!!");
+                    CommonMethods.CurrentAdmin = sysAdmin;
                     RequestClose?.Invoke(new DialogResult(ButtonResult.OK));
                 }
             }

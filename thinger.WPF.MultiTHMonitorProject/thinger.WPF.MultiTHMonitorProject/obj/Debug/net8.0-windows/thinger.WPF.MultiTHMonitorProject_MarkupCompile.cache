@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\App.xaml
-81006068455
+9-1925396361
 
-21-1222311138
-226-1587149894
-Views\AlarmView.xaml;Views\HistoryView.xaml;Views\LoginView.xaml;Views\MainView.xaml;Views\MonitorView.xaml;Views\ParamSetView.xaml;Views\RecipeView.xaml;Views\UserManageView.xaml;
+231744473224
+239772743161
+Charts\GaugeMeterPlate.xaml;Views\AlarmView.xaml;Views\HistoryView.xaml;Views\LoginView.xaml;Views\MainView.xaml;Views\MonitorView.xaml;Views\ParamSetView.xaml;Views\RecipeView.xaml;Views\UserManageView.xaml;
 
 False
 
