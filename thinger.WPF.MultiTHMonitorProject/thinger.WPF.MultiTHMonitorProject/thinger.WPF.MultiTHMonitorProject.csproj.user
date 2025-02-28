@@ -42,6 +42,9 @@
     <Page Update="Views\AlarmView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\GroupConifgView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\HistoryView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -61,6 +64,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UserManageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\VariableConfigView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
