@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("thinger.WPF.MultiTHMonitorModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8bf8fa516abbf0de1a5fd6d445641719f9df08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb4ff97a9d73f2f189d754b33eca752c9539b377")]
 [assembly: System.Reflection.AssemblyProductAttribute("thinger.WPF.MultiTHMonitorModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("thinger.WPF.MultiTHMonitorModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

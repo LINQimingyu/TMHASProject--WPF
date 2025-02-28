@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\monitorview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\monitorview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\views\\monitorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\views\\monitorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\command\\checkboxstyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\command\\checkboxstyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\charts\\gaugemeterplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\charts\\gaugemeterplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\charts\\gaugemeterplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|d:\\users\\wq825\\desktop\\multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4816991-2430-439C-A1FA-9ED3C9A0D448}|thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj|solutionrelative:thinger.wpf.multithmonitorproject\\thinger.wpf.multithmonitorproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,43 @@
       "DocumentGroups": [
         {
           "DockedHeight": 415,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T02:57:40.092Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\App.xaml",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\App.xaml",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\App.xaml",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T02:50:06.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GaugeMeterPlate.xaml.cs",
               "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Charts\\GaugeMeterPlate.xaml.cs",
               "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Charts\\GaugeMeterPlate.xaml.cs",
@@ -47,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GaugeMeterPlate.xaml",
               "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Charts\\GaugeMeterPlate.xaml",
               "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Charts\\GaugeMeterPlate.xaml",
@@ -59,35 +95,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "thinger.WPF.MultiTHMonitorProject",
-              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj",
-              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj",
-              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj",
-              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T15:29:01.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MonitorView.xaml",
-              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T15:26:59.765Z",
+              "DocumentIndex": 3,
+              "Title": "CheckBoxStyle.cs",
+              "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Command\\CheckBoxStyle.cs",
+              "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Command\\CheckBoxStyle.cs",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Command\\CheckBoxStyle.cs",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Command\\CheckBoxStyle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:54:45.331Z",
               "EditorCaption": ""
             }
           ]
@@ -98,13 +114,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MonitorView.xaml",
               "DocumentMoniker": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
               "RelativeDocumentMoniker": "thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAABjAAAAAAAAAA==",
+              "ToolTip": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml*",
+              "RelativeToolTip": "thinger.WPF.MultiTHMonitorProject\\Views\\MonitorView.xaml*",
+              "ViewState": "AgIAADADAAAAAAAAAAAAADIDAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-27T15:43:15.208Z",
               "EditorCaption": ""
