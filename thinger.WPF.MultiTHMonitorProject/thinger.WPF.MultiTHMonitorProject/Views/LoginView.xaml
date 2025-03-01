@@ -9,51 +9,31 @@
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:prism="http://prismlibrary.com/"
+    Name="Login"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-
     <prism:Dialog.WindowStyle>
-        <Style
-            TargetType="Window">
-            <Setter
-                Property="ResizeMode"
-                Value="NoResize" />
-            <Setter
-                Property="prism:Dialog.WindowStartupLocation"
-                Value="CenterScreen" />
-            <Setter
-                Property="WindowChrome.WindowChrome">
+        <Style TargetType="Window">
+            <Setter Property="ResizeMode" Value="NoResize" />
+            <Setter Property="prism:Dialog.WindowStartupLocation" Value="CenterScreen" />
+            <Setter Property="WindowChrome.WindowChrome">
                 <Setter.Value>
-                    <WindowChrome
-                        GlassFrameThickness="-10" />
+                    <WindowChrome GlassFrameThickness="-10" />
                 </Setter.Value>
             </Setter>
         </Style>
     </prism:Dialog.WindowStyle>
-
     <UserControl.Resources>
-        <Style
-            x:Key="borderStyle"
-            TargetType="Border">
-            <Setter
-                Property="Height"
-                Value="1" />
-            <Setter
-                Property="BorderThickness"
-                Value="0,0,0,1" />
-            <Setter
-                Property="BorderBrush">
+        <Style x:Key="borderStyle" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0,0,0,1" />
+            <Setter Property="Background" Value="yellow" />
+            <Setter Property="Height" Value="1" />
+            <Setter Property="BorderBrush">
                 <Setter.Value>
-                    <LinearGradientBrush
-                        StartPoint="1,0"
-                        EndPoint="0,0">
-                        <GradientStop
-                            Offset="0"
-                            Color="#43e9ff" />
-                        <GradientStop
-                            Offset="1"
-                            Color="Transparent" />
+                    <LinearGradientBrush StartPoint="1,0" EndPoint="0,0">
+                        <GradientStop Offset="0" Color="#43e9ff" />
+                        <GradientStop Offset="1" Color="Transparent" />
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
@@ -62,91 +42,120 @@
             x:Key="RightBorderStyle"
             BasedOn="{StaticResource borderStyle}"
             TargetType="Border">
-            <Setter
-                Property="BorderBrush">
+            <Setter Property="BorderBrush">
                 <Setter.Value>
-                    <LinearGradientBrush
-                        StartPoint="0,0"
-                        EndPoint="1,0">
-                        <GradientStop
-                            Offset="0"
-                            Color="#43e9ff" />
-                        <GradientStop
-                            Offset="1"
-                            Color="Transparent" />
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Offset="0" Color="#43e9ff" />
+                        <GradientStop Offset="1" Color="Transparent" />
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
         </Style>
+        <LinearGradientBrush
+            x:Key="GlobalBackground"
+            StartPoint="0.5,0"
+            EndPoint="0.5,1">
+            <GradientStop
+                Color="#0A1A3A"
+                Offset="0" />
+            <GradientStop
+                Color="#00172E"
+                Offset="0.6" />
+            <GradientStop
+                Color="#002A4A"
+                Offset="1" />
+        </LinearGradientBrush>
     </UserControl.Resources>
-    <Grid>
+
+
+
+    <Grid
+        x:Name="LoginBox"
+        Background="{StaticResource GlobalBackground}">
+        <Grid.Resources>
+            <Style
+                x:Key="NeonBorder"
+                TargetType="Border">
+                <Setter
+                    Property="CornerRadius"
+                    Value="8" />
+                <Setter
+                    Property="Background"
+                    Value="#102040" />
+                <Setter
+                    Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect
+                            Color="#43e9ff"
+                            BlurRadius="30"
+                            Opacity="0.6" />
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
         <Grid.RowDefinitions>
-            <RowDefinition
-                Height="Auto" />
-            <RowDefinition
-                Height="Auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Grid.Background>
-            <ImageBrush
-                ImageSource="/Images/login_bg.png" />
-        </Grid.Background>
+
+        <Border
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="520"
+            Height="60"
+            Style="{StaticResource NeonBorder}"
+            Panel.ZIndex="-1" />
+
         <StackPanel
+            x:Name="bTop"
             Margin="0,0,0,40"
             HorizontalAlignment="Right"
             Orientation="Horizontal">
             <Button
+                x:Name="btnClose"
+                Grid.Column="1"
                 Width="50"
                 Height="50"
                 Background="Transparent"
                 BorderThickness="0"
                 Command="{Binding LogoutCommand}"
                 Content="✕"
-                FontSize="22" />
+                Cursor="Hand"
+                FontSize="22"
+                Foreground="White" />
         </StackPanel>
-        <Grid
-            Grid.Row="1"
-            VerticalAlignment="Center">
+        <Grid Grid.Row="1" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition
-                    Width="1*" />
-                <ColumnDefinition
-                    Width="Auto" />
-                <ColumnDefinition
-                    Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-            <Border
-                Style="{StaticResource borderStyle}" />
-            <StackPanel
-                Grid.Column="1"
-                Orientation="Horizontal">
+            <Border Style="{StaticResource borderStyle}" />
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
                 <Image
                     Width="50"
                     Margin="10,0,10,0"
                     RenderOptions.BitmapScalingMode="Fant"
-                    SnapsToDevicePixels="True"
-                    Source="/Images/logo_icon.png" />
+                    SnapsToDevicePixels="True" />
                 <TextBlock
                     Margin="0,0,10,0"
                     VerticalAlignment="Center"
                     FontSize="32"
                     Foreground="#43e9ff"
-                    Text="新阁多路温湿度在线监控系统"
+                    Text="多路温湿度在线监控系统"
                     TextAlignment="Center" />
             </StackPanel>
-            <Border
-                Grid.Column="2"
-                Style="{StaticResource RightBorderStyle}" />
+            <Border Grid.Column="2" Style="{StaticResource RightBorderStyle}" />
         </Grid>
-        <StackPanel
-            Grid.Row="2"
-            Orientation="Horizontal">
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
             <Border
                 Width="350"
                 Height="400"
-                Margin="150,0,0,0">
-                <StackPanel
-                    Margin="20">
+                Margin="150,0,0,0"
+                CornerRadius="10">
+                <StackPanel Margin="20">
                     <TextBlock
                         Margin="0,30,0,0"
                         FontSize="26"
@@ -173,16 +182,18 @@
                         comm:PasswordExtention.Password="{Binding LoginPwd, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                         materialDesign:HintAssist.Background="#12226c"
                         materialDesign:HintAssist.Foreground="#43e9ff"
-                        materialDesign:HintAssist.HelperTextFontSize="14"
                         materialDesign:HintAssist.Hint="请输入管理员密码"
                         BorderBrush="#43e9ff"
                         FontSize="14"
                         Foreground="#afb0d6"
                         Style="{StaticResource MaterialDesignOutlinedPasswordBox}">
+
+                        <!--  通过行为给密码控件，添加一个密码的行为  -->
                         <behavior:Interaction.Behaviors>
                             <comm:PasswordBehavior />
                         </behavior:Interaction.Behaviors>
                     </PasswordBox>
+
                     <Button
                         Height="50"
                         Margin="0,40,0,0"
@@ -190,18 +201,22 @@
                         Background="#43e9ff"
                         BorderThickness="0"
                         Command="{Binding LoginCommand}"
-                        Content="登  录"
+                        CommandParameter="{Binding ElementName=Login}"
+                        Content="登 录"
                         Cursor="Hand"
                         FontSize="18"
                         Foreground="#142557"
                         Style="{StaticResource MaterialDesignRaisedAccentButton}" />
+
                     <TextBlock
                         Margin="0,10,0,0"
                         FontSize="14"
-                        Foreground="red"
+                        Foreground="Red"
                         Text="{Binding LoginTip}" />
                 </StackPanel>
             </Border>
         </StackPanel>
     </Grid>
+    
+
 </UserControl>

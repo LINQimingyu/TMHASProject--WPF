@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using thinger.WPF.MultiTHMonitorProject.ViewModels;
 
 namespace thinger.WPF.MultiTHMonitorProject.Views
 {
@@ -23,6 +24,7 @@ namespace thinger.WPF.MultiTHMonitorProject.Views
         public UserManageView()
         {
             InitializeComponent();
+            this.DataContext = new UserManageViewModel();
         }
     }
 }

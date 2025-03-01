@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorProject", "thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject.csproj", "{D4816991-2430-439C-A1FA-9ED3C9A0D448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorProject", "thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject.csproj", "{BC76159F-499E-4B28-BF2E-5581C12EC259}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorModels", "thinger.WPF.MultiTHMonitorModels\thinger.WPF.MultiTHMonitorModels.csproj", "{70D3D0F3-BF19-4612-A567-380B151D53C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorModels", "thinger.WPF.MultiTHMonitorModels\thinger.WPF.MultiTHMonitorModels.csproj", "{D55E2A9B-D26B-4C70-93FA-368F6E3F0FD3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorDAL", "thinger.WPF.MultiTHMonitorDAL\thinger.WPF.MultiTHMonitorDAL.csproj", "{5849CEF1-A50A-42CF-8528-65888A9B2595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorHelper", "thinger.WPF.MultiTHMonitorHelper\thinger.WPF.MultiTHMonitorHelper.csproj", "{40019B07-04E5-431D-98F8-6CDE72FF9A16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorBLL", "thinger.WPF.MultiTHMonitorBLL\thinger.WPF.MultiTHMonitorBLL.csproj", "{CF032183-8F35-467D-BB84-6310C8D5250D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorDAL", "thinger.WPF.MultiTHMonitorDAL\thinger.WPF.MultiTHMonitorDAL.csproj", "{E734C6D4-BAC4-4D2A-8A2D-C8A467A1E2A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorHelper", "thinger.WPF.MultiTHMonitorHelp\thinger.WPF.MultiTHMonitorHelper.csproj", "{243F7822-9052-4491-8BE0-9006A6D7B6EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.WPF.MultiTHMonitorBLL", "thinger.WPF.MultiTHMonitorBLL\thinger.WPF.MultiTHMonitorBLL.csproj", "{8C5A1369-E769-468B-9D01-72C9AD8D8465}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thinger.DataConvertLib", "thinger.DataConvertLib\thinger.DataConvertLib.csproj", "{E3F8BF1F-29AB-4B9A-A3EF-672FD9746525}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinger.DataConvertLib", "thinger.DataConvertLib\thinger.DataConvertLib.csproj", "{A168D3DD-46A8-47CD-8691-0094A204857F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,35 +21,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4816991-2430-439C-A1FA-9ED3C9A0D448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4816991-2430-439C-A1FA-9ED3C9A0D448}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4816991-2430-439C-A1FA-9ED3C9A0D448}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4816991-2430-439C-A1FA-9ED3C9A0D448}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70D3D0F3-BF19-4612-A567-380B151D53C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70D3D0F3-BF19-4612-A567-380B151D53C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70D3D0F3-BF19-4612-A567-380B151D53C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70D3D0F3-BF19-4612-A567-380B151D53C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5849CEF1-A50A-42CF-8528-65888A9B2595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5849CEF1-A50A-42CF-8528-65888A9B2595}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5849CEF1-A50A-42CF-8528-65888A9B2595}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5849CEF1-A50A-42CF-8528-65888A9B2595}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF032183-8F35-467D-BB84-6310C8D5250D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF032183-8F35-467D-BB84-6310C8D5250D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF032183-8F35-467D-BB84-6310C8D5250D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF032183-8F35-467D-BB84-6310C8D5250D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{243F7822-9052-4491-8BE0-9006A6D7B6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{243F7822-9052-4491-8BE0-9006A6D7B6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{243F7822-9052-4491-8BE0-9006A6D7B6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{243F7822-9052-4491-8BE0-9006A6D7B6EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3F8BF1F-29AB-4B9A-A3EF-672FD9746525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3F8BF1F-29AB-4B9A-A3EF-672FD9746525}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3F8BF1F-29AB-4B9A-A3EF-672FD9746525}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3F8BF1F-29AB-4B9A-A3EF-672FD9746525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC76159F-499E-4B28-BF2E-5581C12EC259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC76159F-499E-4B28-BF2E-5581C12EC259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC76159F-499E-4B28-BF2E-5581C12EC259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC76159F-499E-4B28-BF2E-5581C12EC259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55E2A9B-D26B-4C70-93FA-368F6E3F0FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55E2A9B-D26B-4C70-93FA-368F6E3F0FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55E2A9B-D26B-4C70-93FA-368F6E3F0FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55E2A9B-D26B-4C70-93FA-368F6E3F0FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40019B07-04E5-431D-98F8-6CDE72FF9A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40019B07-04E5-431D-98F8-6CDE72FF9A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40019B07-04E5-431D-98F8-6CDE72FF9A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40019B07-04E5-431D-98F8-6CDE72FF9A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E734C6D4-BAC4-4D2A-8A2D-C8A467A1E2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E734C6D4-BAC4-4D2A-8A2D-C8A467A1E2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E734C6D4-BAC4-4D2A-8A2D-C8A467A1E2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E734C6D4-BAC4-4D2A-8A2D-C8A467A1E2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5A1369-E769-468B-9D01-72C9AD8D8465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5A1369-E769-468B-9D01-72C9AD8D8465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5A1369-E769-468B-9D01-72C9AD8D8465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5A1369-E769-468B-9D01-72C9AD8D8465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A168D3DD-46A8-47CD-8691-0094A204857F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A168D3DD-46A8-47CD-8691-0094A204857F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A168D3DD-46A8-47CD-8691-0094A204857F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A168D3DD-46A8-47CD-8691-0094A204857F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {31E37883-07DF-4B47-A201-4065FD4C06CF}
+		SolutionGuid = {4A3F9F39-D8AF-4049-B249-BBD168375DFA}
 	EndGlobalSection
 EndGlobal

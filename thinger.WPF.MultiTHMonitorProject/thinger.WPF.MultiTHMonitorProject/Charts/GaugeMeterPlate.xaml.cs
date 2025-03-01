@@ -21,17 +21,15 @@ namespace thinger.WPF.MultiTHMonitorProject.Charts
     /// </summary>
     public partial class GaugeMeterPlate : UserControl
     {
-
-        /// <summary>
-        /// 添加Value属性
-        /// </summary>
         public int Value
         {
             get { return (int)GetValue(ValueProperty); }
             set { SetValue(ValueProperty, value); }
         }
         public static readonly DependencyProperty ValueProperty =
-            DependencyProperty.RegisterAttached("Value", typeof(int), typeof(GaugeMeterPlate), new PropertyMetadata(default(int), new PropertyChangedCallback(OnValuePropertyChanged)));
+            DependencyProperty.Register("Value", typeof(int), typeof(GaugeMeterPlate),
+                new PropertyMetadata(default(int), new PropertyChangedCallback(OnValuePropertyChanged)));
+
 
         public double Minimum
         {
@@ -39,7 +37,9 @@ namespace thinger.WPF.MultiTHMonitorProject.Charts
             set { SetValue(MinimumProperty, value); }
         }
         public static readonly DependencyProperty MinimumProperty =
-            DependencyProperty.RegisterAttached("Minimum", typeof(double), typeof(GaugeMeterPlate), new PropertyMetadata(double.NaN, new PropertyChangedCallback(OnPropertyChanged)));
+            DependencyProperty.Register("Minimum", typeof(double), typeof(GaugeMeterPlate),
+                new PropertyMetadata(double.NaN, new PropertyChangedCallback(OnPropertyChanged)));
+
 
         public double Maximum
         {
@@ -76,27 +76,33 @@ namespace thinger.WPF.MultiTHMonitorProject.Charts
         }
         public static readonly DependencyProperty PlateBorderThicknessProperty =
             DependencyProperty.Register("PlateBorderThickness", typeof(Thickness), typeof(GaugeMeterPlate), null);
-        /// <summary>
-        /// 此方法是根据Value值去决定指针旋转的角度，所对应的值
-        /// </summary>
-        /// <param name="d"></param>
-        /// <param name="e"></param>
-        private static void OnValuePropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            (d as GaugeMeterPlate).DrawAngel();
-        }
-        private static void OnPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+
+
+        public static void OnPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             (d as GaugeMeterPlate).DrawScale();
         }
 
-        private void DrawAngel()
+        public static void OnValuePropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            double step = 270.0 / (this.Maximum - this.Minimum);
-            DoubleAnimation da = new DoubleAnimation(this.Value * step - 45, new Duration(TimeSpan.FromMilliseconds(200)));
-            this.rtPointer.BeginAnimation(RotateTransform.AngleProperty, da);
+            (d as GaugeMeterPlate).DrawAngle();
         }
 
+        public GaugeMeterPlate()
+        {
+            InitializeComponent();
+
+            Loaded += MeterPlate_Loaded;
+        }
+
+        private void MeterPlate_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.DrawScale();
+        }
+
+        /// <summary>
+        /// 画表盘的刻度
+        /// </summary>
         private void DrawScale()
         {
             this.canvasPlate.Children.Clear();
@@ -142,15 +148,13 @@ namespace thinger.WPF.MultiTHMonitorProject.Charts
                 this.canvasPlate.Children.Add(lineScale);
             }
         }
-        public GaugeMeterPlate()
+
+        private void DrawAngle()
         {
-            InitializeComponent();
-            Loaded += MeterPlate_Loaded;
+            double step = 270.0 / (this.Maximum - this.Minimum);
+            DoubleAnimation da = new DoubleAnimation(this.Value * step - 45, new Duration(TimeSpan.FromMilliseconds(200)));
+            this.rtPointer.BeginAnimation(RotateTransform.AngleProperty, da);
         }
 
-        private void MeterPlate_Loaded(object sender, RoutedEventArgs e)
-        {
-            this.DrawScale();
-        }
     }
 }

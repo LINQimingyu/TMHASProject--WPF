@@ -40,9 +40,8 @@
                 Command="{Binding LogoutCommand}"
                 CommandParameter="{Binding}"
                 Content="✕"
-                Cursor="Hand"
                 FontSize="18"
-                Foreground="White" />
+                Foreground="White" Cursor="Hand" />
         </StackPanel>
         <Border Grid.Row="1" Background="#070b40">
             <GroupBox

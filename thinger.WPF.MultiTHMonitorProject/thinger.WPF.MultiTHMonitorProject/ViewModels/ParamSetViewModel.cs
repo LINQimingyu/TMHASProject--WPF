@@ -1,6 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Events;
 using Prism.Mvvm;
+using Prism.Regions;
 using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Threading;
+using thinger.DataConvertLib;
 using thinger.WPF.MultiTHMonitorHelper;
 using thinger.WPF.MultiTHMonitorModels;
 using thinger.WPF.MultiTHMonitorProject.Command;
@@ -17,20 +21,37 @@ using thinger.WPF.MultiTHMonitorProject.Events;
 
 namespace thinger.WPF.MultiTHMonitorProject.ViewModels
 {
-    public class ParamSetViewModel : BindableBase
+    public class ParamSetViewModel:BindableBase
     {
-        public ParamSetViewModel(IDialogService dialogService, IEventAggregator eventAggregator)
+        //public ParamSetViewModel(){}
+        //此处利用构造函数注入一个弹窗服务依赖
+        public ParamSetViewModel(IDialogService dialogService,IEventAggregator eventAggregator)
         {
             ConfirmSetCommand = new DelegateCommand(ExeConfirmSet);
             CancelSetCommand = new DelegateCommand(ExeCancelSet);
             OpenGroupViewCommand = new DelegateCommand<string>(ExeOpenGroupView);
             OpenVariableViewCommand = new DelegateCommand<string>(ExeOpenVariableView);
             OpenModifyParamSetViewCommand = new DelegateCommand<object>(ExeOpenModifyParamSetView);
-            this._eventAggregator = eventAggregator;
-            this._dialogService = dialogService;
+            dataMethods.OpenTimer();
+            GetLimitParam();
+            this._dialogService=dialogService;
+            this._eventAggregator=eventAggregator;
         }
-        private readonly IEventAggregator _eventAggregator;
+
+        #region 变量
+        //private string devPath=string.Empty;
         private readonly IDialogService _dialogService;
+        private readonly IEventAggregator _eventAggregator;
+        private CommonDataMethods dataMethods = new CommonDataMethods();
+        #endregion
+        
+        #region 命令属性
+        public DelegateCommand ConfirmSetCommand { get; set; }
+        public DelegateCommand CancelSetCommand { get; set; }
+        public DelegateCommand<string> OpenGroupViewCommand { get; set; }
+        public DelegateCommand<string> OpenVariableViewCommand { get; set; }
+        public DelegateCommand<object> OpenModifyParamSetViewCommand { get; set; }
+        #endregion
 
         #region 视图模型属性
         private string iPAddress;
@@ -54,7 +75,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
             set { groupList = value; RaisePropertyChanged(); }
         }
         #region 1#站点
-        private string stateHTemp01 = "0.0℃";
+        private string stateHTemp01= "0.0℃";
 
         public string StateHTemp01
         {
@@ -67,7 +88,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         {
             get { return isAlarmTemp01; }
             set
-            { isAlarmTemp01 = value; RaisePropertyChanged(); }
+            { isAlarmTemp01 = value;RaisePropertyChanged(); }
         }
         private bool isAlarmHum01;
 
@@ -77,12 +98,12 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
             set
             { isAlarmHum01 = value; RaisePropertyChanged(); }
         }
-        private string ledAlarmHTemp01 = "#98df44";
+        private string ledAlarmHTemp01= "#98df44";
 
         public string LedAlarmHTemp01
         {
             get { return ledAlarmHTemp01; }
-            set
+            set 
             {
                 if (isAlarmTemp01)
                 {
@@ -92,20 +113,20 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 {
                     ledAlarmHTemp01 = "#98df44";
                 }
-
-                RaisePropertyChanged();
+                
+                RaisePropertyChanged(); 
             }
         }
 
 
-        private string stateLTemp01 = "0.0℃";
+        private string stateLTemp01= "0.0℃";
 
         public string StateLTemp01
         {
             get { return stateLTemp01; }
             set { stateLTemp01 = value; RaisePropertyChanged(); }
         }
-
+      
         private string ledAlarmLTemp01 = "#98df44";
 
         public string LedAlarmLTemp01
@@ -125,7 +146,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 RaisePropertyChanged();
             }
         }
-        private string stateHHum01 = "0%";
+        private string stateHHum01="0%";
 
         public string StateHHum01
         {
@@ -152,7 +173,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 RaisePropertyChanged();
             }
         }
-        private string stateLHum01 = "0%";
+        private string stateLHum01="0%";
 
         public string StateLHum01
         {
@@ -182,7 +203,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         #endregion
 
         #region 2#站点
-        private string stateHTemp02 = "0.0℃";
+        private string stateHTemp02= "0.0℃";
 
         public string StateHTemp02
         {
@@ -280,7 +301,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 RaisePropertyChanged();
             }
         }
-        private string stateLHum02 = "0%";
+        private string stateLHum02="0%";
 
         public string StateLHum02
         {
@@ -737,7 +758,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         }
 
 
-        private string stateLTemp06 = "0.0℃";
+        private string stateLTemp06= "0.0℃";
 
         public string StateLTemp06
         {
@@ -764,7 +785,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 RaisePropertyChanged();
             }
         }
-        private string stateHHum06 = "0%";
+        private string stateHHum06="0%";
 
         public string StateHHum06
         {
@@ -791,7 +812,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 RaisePropertyChanged();
             }
         }
-        private string stateLHum06 = "0%";
+        private string stateLHum06="0%";
         public string StateLHum06
         {
             get { return stateLHum06; }
@@ -799,7 +820,6 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         }
 
         private string ledAlarmLHum06 = "#98df44";
-
 
         public string LedAlarmLHum06
         {
@@ -821,64 +841,7 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
         #endregion
         #endregion
 
-        #region 命令属性
-        public DelegateCommand ConfirmSetCommand { get; set; }
-        public DelegateCommand CancelSetCommand { get; set; }
-        public DelegateCommand<string> OpenGroupViewCommand { get; set; }
-        public DelegateCommand<string> OpenVariableViewCommand { get; set; }
-        public DelegateCommand<object> OpenModifyParamSetViewCommand { get; set; }
-        #endregion
-
         #region 方法
-        private void ExeOpenModifyParamSetView(object obj)
-        {
-
-        }
-
-        private void ExeOpenVariableView(string obj)
-        {
-            DialogParameters keys = new DialogParameters();
-            keys.Add("ShowParam", "变量配置窗口");
-            _dialogService.ShowDialog(obj, keys, callback =>
-            {
-                if (callback.Result == ButtonResult.OK)
-                {
-                    string result = callback.Parameters.GetValue<string>("VariableView");
-                }
-            });
-        }
-
-        private void ExeOpenGroupView(string obj)
-        {
-            DialogParameters keys = new DialogParameters();
-            keys.Add("ShowParam", "组配置窗口");
-            _dialogService.ShowDialog(obj, keys, callback =>
-            {
-                if (callback.Result == ButtonResult.OK)
-                {
-                    string result = callback.Parameters.GetValue<string>("GroupView");
-                }
-            });
-        }
-        /// <summary>
-        /// 取消设置
-        /// </summary>
-        private void ExeCancelSet()
-        {
-            Device device = new Device
-            {
-                IPAddress = "",
-                Port = 0,
-                IsConnected = false
-            };
-            CommonMethods.Device = device;
-            _eventAggregator.GetEvent<DeviceMessageEvent>().Publish(device);
-            IPAddress = "";
-            Port = 0;
-        }
-        /// <summary>
-        /// 确定设置
-        /// </summary>
         private void ExeConfirmSet()
         {
             string devPath = Environment.CurrentDirectory + "\\Config\\Device.ini";
@@ -913,19 +876,258 @@ namespace thinger.WPF.MultiTHMonitorProject.ViewModels
                 result &= IniConfigHelper.WriteIniData("设备参数", "d端口号", Port.ToString(), devPath);
                 if (result)
                 {
-                    Device device = new Device
+                    Device device = new Device 
                     {
                         IPAddress = IPAddress,
                         Port = Port,
                         IsConnected = true
-                    };
-                    CommonMethods.Device = device;
+                    }; 
+                    CommonMethods.Device=device;
                     _eventAggregator.GetEvent<DeviceMessageEvent>().Publish(device);
                     MessageBox.Show("通信成功!!!");
                 }
                 else
                 {
                     MessageBox.Show("通信设置失败");
+                }
+            }
+
+        }
+
+        /// <summary>
+        /// 取消配置的方法
+        /// </summary>
+        private void ExeCancelSet()
+        {
+            
+            Device device = new Device
+            {
+                IPAddress = "",
+                Port = 0,
+                IsConnected = false
+            };
+            CommonMethods.Device = device;
+            _eventAggregator.GetEvent<DeviceMessageEvent>().Publish(device);
+
+            IPAddress = "";
+            Port = 0;
+        }
+
+        //打开通信组配置窗口方法
+        private void ExeOpenGroupView(string obj)
+        {
+            DialogParameters keys = new DialogParameters();
+            keys.Add("ShowParam", "参数修改窗口");
+            _dialogService.ShowDialog(obj, keys, callback =>
+            {
+                if (callback.Result == ButtonResult.OK)
+                {
+                    string result = callback.Parameters.GetValue<string>("GroupViewValue");
+                }
+            });
+        }
+
+        private void ExeOpenVariableView(string obj)
+        {
+            DialogParameters keys = new DialogParameters();
+            keys.Add("ShowVariableParam", "变量配置窗口");
+            _dialogService.ShowDialog(obj, keys, callback =>
+            {
+                if (callback.Result == ButtonResult.OK)
+                {
+                    string result = callback.Parameters.GetValue<string>("VariableViewValue");
+                }
+            });
+        }
+        
+        private void ExeOpenModifyParamSetView(object obj)
+        {
+            var objArray = (object[])obj;
+            DialogParameters keys = new DialogParameters();
+            keys.Add("ShowVariableParam", "变量配置窗口");
+            keys.Add("ShowSiteName", objArray[1].ToString());
+            keys.Add("ShowSiteValue", objArray[2].ToString());
+            _dialogService.ShowDialog(objArray[0].ToString(), keys, callback =>
+            {
+                if (callback.Result == ButtonResult.OK)
+                {
+                    string result1 = callback.Parameters.GetValue<string>("ParamViewValue1");
+                    string result2 = callback.Parameters.GetValue<string>("ParamViewValue2");
+                    GetLimitParam();
+                }
+            });
+        }
+
+        private void GetLimitParam()
+        {
+            if (CommonMethods.Device.IsConnected)
+            {
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1温度高限"))
+                {
+                    StateHTemp01 = $"{CommonMethods.Device["模块1温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1温度低限"))
+                {
+                    StateLTemp01 =$"{CommonMethods.Device["模块1温度低限"]}℃";
+                }
+               
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1温度报警启用"))
+                {
+                    IsAlarmTemp01 = Convert.ToBoolean(CommonMethods.Device["模块1温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1湿度高限"))
+                {
+                    StateHHum01 = $"{CommonMethods.Device["模块1湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1湿度低限"))
+                {
+                    StateLHum01 = $"{CommonMethods.Device["模块1湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块1湿度报警启用"))
+                {
+                    IsAlarmHum01 = Convert.ToBoolean(CommonMethods.Device["模块1湿度报警启用"]);
+                }
+
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2温度高限"))
+                {
+                    StateHTemp02 = $"{CommonMethods.Device["模块2温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2温度低限"))
+                {
+                    StateLTemp02 = $"{CommonMethods.Device["模块2温度低限"]}℃";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2温度报警启用"))
+                {
+                    IsAlarmTemp02 = Convert.ToBoolean(CommonMethods.Device["模块2温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2湿度高限"))
+                {
+                    StateHHum02 = $"{CommonMethods.Device["模块2湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2湿度低限"))
+                {
+                    StateLHum02 = $"{CommonMethods.Device["模块2湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块2湿度报警启用"))
+                {
+                    IsAlarmHum02 = Convert.ToBoolean(CommonMethods.Device["模块2湿度报警启用"]);
+                }
+
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3温度高限"))
+                {
+                    StateHTemp03 = $"{CommonMethods.Device["模块3温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3温度低限"))
+                {
+                    StateLTemp03 = $"{CommonMethods.Device["模块3温度低限"]}℃";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3温度报警启用"))
+                {
+                    IsAlarmTemp03 = Convert.ToBoolean(CommonMethods.Device["模块3温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3湿度高限"))
+                {
+                    StateHHum03 = $"{CommonMethods.Device["模块3湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3湿度低限"))
+                {
+                    StateLHum03 = $"{CommonMethods.Device["模块3湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3湿度报警启用"))
+                {
+                    IsAlarmHum03 = Convert.ToBoolean(CommonMethods.Device["模块3湿度报警启用"]);
+                }
+
+
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块4温度高限"))
+                {
+                    StateHTemp04= $"{CommonMethods.Device["模块4温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块4温度低限"))
+                {
+                    StateLTemp04 = $"{CommonMethods.Device["模块4温度低限"]}℃";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块4温度报警启用"))
+                {
+                    IsAlarmTemp04 = Convert.ToBoolean(CommonMethods.Device["模块4温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块3湿度高限"))
+                {
+                    StateHHum04 = $"{CommonMethods.Device["模块4湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块4湿度低限"))
+                {
+                    StateLHum04 = $"{CommonMethods.Device["模块4湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块4湿度报警启用"))
+                {
+                    IsAlarmHum04 = Convert.ToBoolean(CommonMethods.Device["模块4湿度报警启用"]);
+                }
+
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5温度高限"))
+                {
+                    StateHTemp05 = $"{CommonMethods.Device["模块5温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5温度低限"))
+                {
+                    StateLTemp05 = $"{CommonMethods.Device["模块5温度低限"]}℃";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5温度报警启用"))
+                {
+                    IsAlarmTemp05 = Convert.ToBoolean(CommonMethods.Device["模块5温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5湿度高限"))
+                {
+                    StateHHum05 = $"{CommonMethods.Device["模块5湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5湿度低限"))
+                {
+                    StateLHum05 = $"{CommonMethods.Device["模块5湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5湿度报警启用"))
+                {
+                    IsAlarmHum05 = Convert.ToBoolean(CommonMethods.Device["模块5湿度报警启用"]);
+                }
+
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块6温度高限"))
+                {
+                    StateHTemp06 = $"{CommonMethods.Device["模块6温度高限"]}℃";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块6温度低限"))
+                {
+                    StateLTemp06 = $"{CommonMethods.Device["模块6温度低限"]}℃";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块6温度报警启用"))
+                {
+                    IsAlarmTemp06 = Convert.ToBoolean(CommonMethods.Device["模块6温度报警启用"]);
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块5湿度高限"))
+                {
+                    StateHHum06 = $"{CommonMethods.Device["模块6湿度高限"]}%";
+                }
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块6湿度低限"))
+                {
+                    StateLHum06 = $"{CommonMethods.Device["模块6湿度低限"]}%";
+                }
+
+                if (CommonMethods.Device.CurrentValue.ContainsKey("模块6湿度报警启用"))
+                {
+                    IsAlarmHum06 = Convert.ToBoolean(CommonMethods.Device["模块6湿度报警启用"]);
                 }
             }
         }

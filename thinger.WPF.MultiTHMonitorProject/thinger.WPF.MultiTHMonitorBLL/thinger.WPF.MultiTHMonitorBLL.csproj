@@ -1,15 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	  <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
-    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\thinger.WPF.MultiTHMonitorDAL\thinger.WPF.MultiTHMonitorDAL.csproj" />
-    <ProjectReference Include="..\thinger.WPF.MultiTHMonitorModels\thinger.WPF.MultiTHMonitorModels.csproj" />
   </ItemGroup>
 
 </Project>

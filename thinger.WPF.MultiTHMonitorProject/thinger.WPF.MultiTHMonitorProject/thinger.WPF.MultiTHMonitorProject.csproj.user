@@ -10,7 +10,13 @@
     <Compile Update="Charts\GaugeMeterPlate.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Charts\Guage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AlarmView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\GroupConifgView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\HistoryView.xaml.cs">
@@ -19,7 +25,7 @@
     <Compile Update="Views\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\MainView.xaml.cs">
+    <Compile Update="Views\ModifyParamSetView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MonitorView.xaml.cs">
@@ -34,9 +40,15 @@
     <Compile Update="Views\UserManageView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\VariableConfigView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Charts\GaugeMeterPlate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Charts\Guage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AlarmView.xaml">
@@ -52,6 +64,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ModifyParamSetView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MonitorView.xaml">

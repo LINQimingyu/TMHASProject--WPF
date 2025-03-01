@@ -18,7 +18,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,93 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
+                "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj"
+              },
+              "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
+                "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "projectName": "thinger.WPF.MultiTHMonitorHelper",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
         },
@@ -43,8 +128,14 @@
         }
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +147,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -64,7 +169,85 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+        "projectName": "thinger.WPF.MultiTHMonitorModels",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+        "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

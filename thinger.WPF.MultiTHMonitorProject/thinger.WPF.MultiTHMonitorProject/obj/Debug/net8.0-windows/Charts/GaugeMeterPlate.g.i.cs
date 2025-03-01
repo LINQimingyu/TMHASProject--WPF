@@ -77,7 +77,8 @@ namespace thinger.WPF.MultiTHMonitorProject.Charts {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/thinger.WPF.MultiTHMonitorProject;component/charts/gaugemeterplate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/thinger.WPF.MultiTHMonitorProject;V1.0.0.0;component/charts/gaugemeterplate.xaml" +
+                    "", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Charts\GaugeMeterPlate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

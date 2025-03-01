@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace thinger.WPF.MultiTHMonitorProject.Command
 {
-    public class CheckBoxStyle
+    public class CheckBoxStyle: DependencyObject
     {
         public static double GetIconSize(DependencyObject obj)
         {
@@ -23,4 +23,5 @@ namespace thinger.WPF.MultiTHMonitorProject.Command
         public static readonly DependencyProperty IconSizeProperty =
             DependencyProperty.RegisterAttached("IconSize", typeof(double), typeof(CheckBoxStyle), new PropertyMetadata(30d));
     }
+
 }

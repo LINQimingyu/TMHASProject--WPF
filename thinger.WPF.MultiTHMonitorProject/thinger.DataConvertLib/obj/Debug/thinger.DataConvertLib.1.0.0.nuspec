@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>thinger.DataConvertLib</id>
+    <version>1.0.0</version>
+    <authors>thinger.DataConvertLib</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="thinger.WPF.MultiTHMonitorHelper" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="thinger.WPF.MultiTHMonitorModels" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\thinger\Desktop\TempCode\thinger.WPF.MultiTHMonitorProject\thinger.DataConvertLib\bin\Debug\net6.0-windows\thinger.DataConvertLib.dll" target="lib\net6.0-windows7.0\thinger.DataConvertLib.dll" />
+  </files>
+</package>

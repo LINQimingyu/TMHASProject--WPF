@@ -1,0 +1,13 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = thinger.WPF.MultiTHMonitorProject_kukgdwlj_wpftmp
+build_property.ProjectDir = E:\QIMING\编程\WPF\【新阁教育】09【WPF实战】多路温湿度监控系统课程资料\同步源码和同步资料\同步源码\项目完整代码\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

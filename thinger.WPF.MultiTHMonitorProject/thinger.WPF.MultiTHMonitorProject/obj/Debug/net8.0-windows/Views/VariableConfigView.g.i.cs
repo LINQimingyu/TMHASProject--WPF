@@ -84,7 +84,8 @@ namespace thinger.WPF.MultiTHMonitorProject.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/thinger.WPF.MultiTHMonitorProject;component/views/variableconfigview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/thinger.WPF.MultiTHMonitorProject;V1.0.0.0;component/views/variableconfigview.xa" +
+                    "ml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\VariableConfigView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
