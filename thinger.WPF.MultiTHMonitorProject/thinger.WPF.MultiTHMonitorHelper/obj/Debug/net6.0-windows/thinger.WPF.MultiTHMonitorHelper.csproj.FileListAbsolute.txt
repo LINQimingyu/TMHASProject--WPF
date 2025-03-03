@@ -83,3 +83,16 @@ D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\t
 D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\refint\thinger.WPF.MultiTHMonitorHelper.dll
 D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.pdb
 D:\Users\wq825\Desktop\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\ref\thinger.WPF.MultiTHMonitorHelper.dll
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\bin\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.deps.json
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\bin\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.dll
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\bin\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.pdb
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.csproj.AssemblyReference.cache
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.AssemblyInfoInputs.cache
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.AssemblyInfo.cs
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.csproj.CoreCompileInputs.cache
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.sourcelink.json
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.dll
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\refint\thinger.WPF.MultiTHMonitorHelper.dll
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\thinger.WPF.MultiTHMonitorHelper.pdb
+D:\Users\wq825\Desktop\Project\MultiTHMonitorProject\thinger.WPF.MultiTHMonitorProject\thinger.WPF.MultiTHMonitorHelper\obj\Debug\net6.0-windows\ref\thinger.WPF.MultiTHMonitorHelper.dll

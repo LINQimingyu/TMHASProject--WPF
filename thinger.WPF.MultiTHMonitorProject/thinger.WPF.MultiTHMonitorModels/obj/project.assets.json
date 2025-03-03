@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+      "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
       "projectName": "thinger.WPF.MultiTHMonitorModels",
-      "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+      "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
       "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\obj\\",
+      "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",

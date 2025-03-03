@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {}
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {}
   },
   "projects": {
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
         "projectName": "thinger.WPF.MultiTHMonitorHelper",
-        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
         "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\obj\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",

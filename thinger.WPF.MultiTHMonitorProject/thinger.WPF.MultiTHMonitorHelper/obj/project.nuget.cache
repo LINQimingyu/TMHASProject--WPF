@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zOwfz+22CNg=",
+  "dgSpecHash": "lenSYQGRFUg=",
   "success": true,
-  "projectFilePath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+  "projectFilePath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wq825\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\wq825\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",

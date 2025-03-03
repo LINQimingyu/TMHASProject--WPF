@@ -2610,11 +2610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\thinger.WPF.MultiTHMonitorBLL.csproj",
+      "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\thinger.WPF.MultiTHMonitorBLL.csproj",
       "projectName": "thinger.WPF.MultiTHMonitorBLL",
-      "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\thinger.WPF.MultiTHMonitorBLL.csproj",
+      "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\thinger.WPF.MultiTHMonitorBLL.csproj",
       "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\obj\\",
+      "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorBLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2632,8 +2632,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorDAL\\thinger.WPF.MultiTHMonitorDAL.csproj": {
-              "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorDAL\\thinger.WPF.MultiTHMonitorDAL.csproj"
+            "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorDAL\\thinger.WPF.MultiTHMonitorDAL.csproj": {
+              "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorDAL\\thinger.WPF.MultiTHMonitorDAL.csproj"
             }
           }
         }

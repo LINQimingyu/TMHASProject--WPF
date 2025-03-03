@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj": {}
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj": {}
   },
   "projects": {
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj": {
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj",
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj",
         "projectName": "thinger.DataConvertLib",
-        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\thinger.DataConvertLib.csproj",
         "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\obj\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.DataConvertLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
-                "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj"
+              "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
+                "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj"
               },
-              "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
-                "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj"
+              "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
+                "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
         "projectName": "thinger.WPF.MultiTHMonitorHelper",
-        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\thinger.WPF.MultiTHMonitorHelper.csproj",
         "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\obj\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,14 +173,14 @@
         }
       }
     },
-    "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
+    "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+        "projectUniqueName": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
         "projectName": "thinger.WPF.MultiTHMonitorModels",
-        "projectPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
+        "projectPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\thinger.WPF.MultiTHMonitorModels.csproj",
         "packagesPath": "C:\\Users\\wq825\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\wq825\\Desktop\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\obj\\",
+        "outputPath": "D:\\Users\\wq825\\Desktop\\Project\\MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorProject\\thinger.WPF.MultiTHMonitorModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wq825\\AppData\\Roaming\\NuGet\\NuGet.Config",
